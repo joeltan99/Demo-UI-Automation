@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- report name -->
+        <!-- standard dark -->
+        <theme>dark</theme>
+
+        <!-- document encoding -->
+        <!-- defaults to UTF-8 -->
+        <encoding> UTF-8 </encoding>
+
+        <!-- protocol for script and stylesheets -->
+        <!-- defaults to https -->
+        <protocol>http</protocol>
+        <documentTitle>Extent</documentTitle>
+        <reportName>Capstone UI Automation Demo</reportName>
+        <testViewChartLocation>bottom</testViewChartLocation>
+        <scripts>
+<![CDATA[
+$(document).ready(function() {
+
+});
+]]>
+        </scripts>
+
+        <styles>
+<![CDATA[
+]]>
+        </styles>
+
+        </configuration>
+</extentreports>
